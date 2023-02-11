@@ -37,7 +37,7 @@ public class TransactionController {
 	
 	@Autowired
 	public TransactionRepo rpRepo;
-//	hi git
+
 	@GetMapping("/con")
 	public String check() {
 		String s="connection ok";
