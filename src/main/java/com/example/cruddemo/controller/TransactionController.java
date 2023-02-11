@@ -40,7 +40,7 @@ public class TransactionController {
 
 	@GetMapping("/con")
 	public String check() {
-		String s="connection ok";
+		String s="connection ok ahe";
 		return s;
 	}
 	 
@@ -53,8 +53,6 @@ public class TransactionController {
 	@RequestMapping("/home")
 	public String tranhome()
 	{
-		
-		
 		return "Home";
 	}
 	
